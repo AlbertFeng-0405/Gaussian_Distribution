@@ -89,7 +89,7 @@ for w=1:L
 end
 cov2 = multie/L;%covariance of exponential coordinates
 %
-CsE = 2*pi*sqrt(det(cov2));
+CsE = ((2*pi)^1.5)*sqrt(abs(det(cov2)));
 RN=200;dT=0.01;LN=500;
  xe=0:dT:2;
  ye=-1:dT:1;
