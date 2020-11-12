@@ -6,3 +6,5 @@ writter is Albert
 This codes includes Gauassian Distribution in Cartesian and exponential coordinates.
 Data is from wiener process dynamical equation or SDE.
 I test them using Q-Q plot.
+
+Then I fuse the model in multi-agent system to estimate position of robots more precisely using Bayesian filter.
